@@ -1,0 +1,11 @@
+/* Css for payment start */
+#pstpaymentcmsblock {
+    float: right;
+}
+@media (max-width: 991px) {
+	#pstpaymentcmsblock {
+		float:none;
+		display:inline-block;
+		vertical-align:top;
+	}
+}

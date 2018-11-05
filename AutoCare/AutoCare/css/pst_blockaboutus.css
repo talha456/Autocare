@@ -1,0 +1,46 @@
+#blockaboutus{
+	position:relative;
+	color: #ffffff;
+    line-height: 24px;
+}
+#blockaboutus .block-img {
+    background-image: url('../img/footer-logo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: block;
+    padding: 28px 0;
+    max-width: 100%;
+}
+#blockaboutus .block-aboutus-image {
+    margin-bottom: 10px;
+}
+#blockaboutus .block-details {
+    margin-bottom: 10px;
+	padding: 0;
+}
+@media (min-width: 1300px) {
+#blockaboutus:before {
+	content: '';
+    height: 280px;
+    width: 1px;
+    background: #535353;
+    display: block;
+    position: absolute;
+    right: 30px;
+    left: auto;
+    top: -30px;
+    bottom: auto;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+}
+@media (max-width: 991px) {
+#blockaboutus .block-img {
+    background-position: center;
+}
+#blockaboutus .block-details {
+    text-align: center;
+}
+}

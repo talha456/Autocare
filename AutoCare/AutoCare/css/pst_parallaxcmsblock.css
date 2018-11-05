@@ -1,0 +1,77 @@
+/* Parallax block start */
+#pstparallaxcmsblock {
+    margin-bottom: 60px;	
+	background-size:cover;
+	background-attachment:fixed;
+}
+.parallax-wrapper {
+    float: left;
+    padding: 126px 0;
+    text-align: left;  
+}
+.parallax-text {
+	display:inline-block;
+}
+.parallax-text .parallax-text1 {
+	font-family: 'Allura', cursive;
+	color: #2881E3;
+	font-size: 44px;
+	line-height: 44px;
+}
+.parallax-text .parallax-text3 {
+    color: #a2a2a2;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+.parallax-wrapper .btn{
+    color: #ffffff;
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 14px;
+    background-color: #2881E3;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.parallax-wrapper .btn:hover{
+	background-color:#000000;	
+	color:#ffffff;
+}
+.parallax-text .parallax-text2{
+	font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+#pstparallaxcmsblock:hover .parallax-text .parallax-text2{
+    text-shadow: 2px 2px 4px #000000;
+	transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+}
+.parallax-text .parallax-text2 .text2 {
+    color: #2881E3;
+}
+@media (max-width: 767px) {
+	.parallax-text .parallax-text1 {
+		font-size: 35px;
+		line-height: 35px;	
+	}
+	.parallax-text .parallax-text2{
+		font-size: 35px;
+		line-height: 35px;
+	}
+	.parallax-wrapper {
+		padding:50px 0;
+	}
+}
